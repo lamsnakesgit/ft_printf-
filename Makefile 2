@@ -1,0 +1,12 @@
+NAME = ft_print
+SRC = ft_printf.c
+INC = .h
+
+$(NAME):
+	gcc $(SRC) -I./includes -o ft_printf~~~
+all: $(NAME)
+clean:
+	rm .>o
+fclean: clean
+	rm .o
+re: fclean all
